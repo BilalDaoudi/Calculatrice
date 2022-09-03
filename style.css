@@ -1,0 +1,53 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: linear-gradient(100deg, rgb(58, 50, 5), #fff, rgb(58, 50, 5), #fff);
+    background-size: 400% 400%;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-family: monospace;
+    color: yellow;
+}
+
+table {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.btnnb {
+    width: 70px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(160, 82, 205);
+}
+
+.btnop {
+    width: 70px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(157, 76, 76);
+}
+
+.btn_egale {
+    width: 70px;
+    height: 220px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(157, 76, 76);
+
+}
+
+#calcul {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(191, 142, 142);
+
+}

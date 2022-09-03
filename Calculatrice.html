@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <br><br><br>
+        <h1>Bienvenue Pour Calcule</h1>
+
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="calcul" readonly></td>
+            </tr>
+            <tr>
+                <td><button onclick="_operateur('+')" class="btnop">+</button></td>
+                <td><button onclick="_operateur('-')" class="btnop">-</button></td>
+                <td><button onclick="_operateur('*')" class="btnop">*</button></td>
+                <td><button onclick="_operateur('/')" class="btnop">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="_nombre(7)" class="btnnb">7</button></td>
+                <td><button onclick="_nombre(8)" class="btnnb">8</button></td>
+                <td><button onclick="_nombre(9)" class="btnnb">9</button></td>
+                <td rowspan="4" ><button onclick="resultat()" class="btn_egale">=</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="_nombre(4)" class="btnnb">4</button></td>
+                <td><button onclick="_nombre(5)" class="btnnb">5</button></td>
+                <td><button onclick="_nombre(6)" class="btnnb">6</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="_nombre(1)" class="btnnb">1</button></td>
+                <td><button onclick="_nombre(2)" class="btnnb">2</button></td>
+                <td><button onclick="_nombre(3)" class="btnnb">3</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="_nombre(0)" class="btnnb">0</button></td>
+                <td><button onclick="_point()" class="btnnb">.</button></td>
+                <td><button onclick="Vider()" class="btnop">AC</button></td>
+            </tr>
+        </table>
+
+
+
+    </center>
+
+</body>
+
+
+</html>
